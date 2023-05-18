@@ -1,0 +1,26 @@
+advertise on our platform
+	trip aggregators
+
+privacy policy
+
+forum
+
+
+========================
+4. people can book these local guides.
+
+problems,
+1. privacy?
+2. why will users share?
+
+discussion,
+1. what will users share?
+-> from(p), to, mode of travels, sequence of destinations visited with travel modes, eating options, staying options, time required, cost.
+   i think only from place would be a privacy concerned field. also we can keep fields optional.
+
+2. stackoverfolw, quora, likes (heart) button. social contribution ho jata hai.
+
+whats new,
+1. no dedicated portal available for trip plans. on portals like makemytrip, trip advisor, we do get idea of places to visit but the hotel stays and restuarants and mode of travels are high on budget and trip is planned accordingly.
+2. also adding feature of registering as local guides and booking a guide.
+

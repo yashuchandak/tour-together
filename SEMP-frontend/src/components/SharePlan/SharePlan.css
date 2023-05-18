@@ -1,0 +1,47 @@
+.form{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:flex-start;
+    justify-content: left;
+
+}
+
+input{
+    padding: 5px;
+    height: 30px;
+}
+
+textarea{
+    padding: 5px;
+}
+
+.blackBorder{
+    border-radius: 3px;
+    border:2px solid black;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.submitme:hover{
+    opacity: 100%;
+}
+  
+.submitme{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    opacity: 80%;
+    height:40px;
+    width:80px;
+    font-size: large;
+    border-radius:100px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}

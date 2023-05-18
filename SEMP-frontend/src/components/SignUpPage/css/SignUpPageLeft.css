@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.signUpPageAboutPart{
+    width:50%;
+    background: url("/public/images/sign_bg.jpg");
+    display: flex;
+    left:0;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}  
+@media (max-width:900px) {
+    .signUpPageAboutPart{
+        width:0%;
+        opacity: 0%;
+    }
+}
+.signUpPageCommon{
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+.signUpPageAboutPartSpan{
+    font-size:1.3em;
+}
+.signUpPageAboutPartH2{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 20px;
+    font-size:3em;
+    margin-top: 35vh;
+    
+}

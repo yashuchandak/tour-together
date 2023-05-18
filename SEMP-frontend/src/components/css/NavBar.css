@@ -1,0 +1,174 @@
+.navbar{
+    width: 100%;
+    height: 77px;
+    background-color:black;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar_innerPart{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navbarLogo{
+    width: 130px;
+    height: 55px;
+}
+
+.navbar_button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar_rightPart{
+    display: flex;
+    width: 540px;
+    justify-content:space-evenly;
+}
+
+
+.navbar_rightPart_SignIn{
+    color: black;
+    background-color: white;
+    height:40px;
+    width:100px;
+    border-radius:100px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.navbar_rightPart_Signin{
+    color: black;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    margin-right: 20px;
+    height:40px;
+    width:100px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:350px) {
+    #navbarLogo {
+        width:0%;
+        height: 0%;
+    }
+    .navbar_img {
+        width:0%;
+        height: 0%;
+    }
+    .navbar_rightPart {
+ 
+    }
+    
+}
+
+@media screen and (max-height: 400px) {
+    .navbar {
+        height: 60px;
+    }
+    .navbar_rightPart_SignIn {
+        width: 60px;
+        height: 30px;
+    }
+    .navbar_rightPart_Signin {
+        width: 60px;
+        height: 30px;
+    }  
+    #navbarLogo {
+        height: 50px;
+    }  
+}
+.navbar_rightPart_SharePlan{
+    color: black;
+    background-color: white;
+    height:40px;
+    width:100px;
+    border-radius:100px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.navbar_rightPart_Account{
+    color: black;
+    background-color: white;
+    height:40px;
+    width:100px;
+    border-radius:100px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.account-dropdown {
+    padding: 10px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    right:0;
+    top:0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar_button:hover .account-dropdown {
+    display: block;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* margin-top: 210px; */
+    top: 77px;
+}
+
+.navbar_button:hover .navbar_rightPart_Account {
+    font-size: large;
+    border-radius: 0px;
+    border-right: 1px solid black;
+    /* margin-top: 210px; */
+    /* top: 60px; */
+    height: 77px;
+}
+
+option {
+    padding: 5px;
+}
+
+option:hover {
+    background-color:rgb(177, 174, 174);
+}
+
+
+@media screen and (max-height: 400px) {
+    .navbar_rightPart_SharePlan {
+        width: 60px;
+        height: 30px;
+    }
+
+    .navbar_rightPart_Account {
+        width: 60px;
+        height: 30px;
+    }  
+    #navbarLogo {
+        height: 50px;
+    }  
+}

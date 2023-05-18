@@ -1,0 +1,23 @@
+.myflexdivsb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myflexdivsa {
+    display: flex;
+    justify-content: space-around;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: larger;
+}
+
+.likes {
+    padding: 5px;
+    /* height: 10px; */
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px
+}

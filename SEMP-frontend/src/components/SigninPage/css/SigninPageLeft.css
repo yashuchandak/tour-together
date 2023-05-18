@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.sigInPageAboutPart{
+    width:50%;
+    background: url("/public/images/sign_bg.jpg");
+    display: flex;
+    left:0;
+    height: 100vh;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    flex-direction: column; 
+    background-position: center;
+}  
+@media (max-width:900px) {
+    .sigInPageAboutPart{
+        width:0%;
+        opacity:0; /*jugad kyo ki width 0 hone ke baad bhi text dikh rahi thi*/
+    }
+}
+.sigInPageCommon{
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+.sigInPageAboutPartSpan{
+    font-size:1.3em;
+}
+
+.sigInPageAboutPartH2{
+    margin-top: 35vh;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 20px;
+    font-size:3em;
+}

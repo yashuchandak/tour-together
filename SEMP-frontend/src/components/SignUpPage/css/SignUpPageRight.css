@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.signUpPageInputs{
+    position: inherit;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.signUpPageInputsRelative{
+    position: relative;
+    top:20vh;
+    width:25vw;
+}
+
+.signUpPageInputsInputName{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    height:30px;
+    font-size: 1.1rem;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+}
+.signUpPageInputIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.signUpPageInputsInputNameInp{
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Roboto Mono', monospace; */
+    outline:none;
+    border:none;
+    width: 20vw;
+    height: auto;
+}
+.signUpPageExtraDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:20px;
+}
+.signUpPageCenter{
+    display: flex;
+    justify-content: center;
+}
+.signUpPageSubmit{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.signUpPageSumbitButton{
+    width:80px;
+    height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 100px;
+}
+.exp{
+    width:100%;
+}
+
+@media screen and (max-width:900px) {
+    .signUpPageInputs{
+        width:100%;
+    }
+    .signUpPageInputsRelative{
+        width:50vw;
+    }
+    .signUpPageInputsInputNameInp {
+        width: 36vw;
+    }
+}

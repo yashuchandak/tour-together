@@ -1,0 +1,41 @@
+.myflexdivsb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myflexdivsa {
+    display: flex;
+    justify-content: space-around;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: larger;
+}
+
+.likes {
+    padding: 5px;
+    /* height: 10px; */
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px
+}
+
+.myContributionsBackground {
+    width: 100vw;
+    /* margin-bottom: 160px; */
+    /* margin-top: 160px; */
+    /* height: calc(100vh - 77px); */
+    min-height: 100vh;
+    height: auto;
+    margin-top: -40px; /*due to card-holder css*/
+    background: url("/public/images/houses.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.gapa {
+    margin-top: 40px;
+    height: 100px;
+}
